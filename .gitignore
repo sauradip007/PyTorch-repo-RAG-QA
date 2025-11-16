@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+pip-wheel-metadata/
+
+# Virtual envs
+venv/
+.envrc
+
+# Secrets
+.env
+
+# Generated indices / artifacts
+faiss_vector_store/
+bm25_retriever.pkl
+index.pkl
+index.faiss
+*.faiss
+*.pkl
+*.bin
+*.pt
+*.npy
+
+# Streamlit cache
+.streamlit/
